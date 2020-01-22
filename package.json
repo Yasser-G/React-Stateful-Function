@@ -1,0 +1,23 @@
+{
+  "name": "react-stateful-function",
+  "version": "0.0.1",
+  "description": "React Statful Function",
+  "main": "index.ts",
+  "author": {
+    "name": "Yasser-G",
+    "email": "Yas@Keemail.me"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yasser-G/React-Stateful-Function"
+  }
+}
