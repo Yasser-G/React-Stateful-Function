@@ -2,7 +2,7 @@ import React from 'react';
 import { constructState, funcDidMount, funcWillUnmount, funcDidUpdate } from './src';
 
 
-const ReactStatefulFuncComponentExample = () => {
+const ReactStatefulFuncComponentExample = (props) => {
 
     const {
         state, // <= Access and Use state, just like this.state !

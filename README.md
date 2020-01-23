@@ -12,14 +12,6 @@
 - No hooks background needed at all, just import and use!
 
 
-
-
-
-
-
-
-
-
 ## Instalation 
 
 
@@ -35,10 +27,10 @@
 
 ```ts
 import React from 'react';
-import { constructState, funcDidMount, funcWillUnmount, funcDidUpdate } from './src';
+import { constructState, funcDidMount, funcWillUnmount, funcDidUpdate } from 'react-stateful-function';
 
 
-const ReactStatefulFuncComponentExample = () => {
+const MyStatefulComponent = (props) => {
 
     const {
         state, // <= Access and Use state, just like this.state !
@@ -80,6 +72,8 @@ const ReactStatefulFuncComponentExample = () => {
     );
 
 };
+
+export default MyStatefulComponent;
 ```
 
 
