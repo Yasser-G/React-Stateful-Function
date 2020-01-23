@@ -1,8 +1,15 @@
 {
   "name": "react-stateful-function",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "React Statful Function",
   "main": "index.ts",
+  "keywords": [
+    "react",
+    "react-native",
+    "hooks",
+    "khtwah",
+    "step"
+  ],
   "author": {
     "name": "Yasser-G",
     "email": "Yas@Keemail.me"
