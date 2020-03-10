@@ -5,6 +5,6 @@ import { useEffect } from 'react';
  *
  * Comparing array values' changes within renders
  */
-const useDidUpdate = (values: Array<any> = [], doOnChange: Function = () => null) => useEffect(() => { doOnChange(); }, values);
+const useDidUpdate = (values = [], doOnChange= () => null) => useEffect(() => { doOnChange(); }, values);
 
 export { useDidUpdate };
