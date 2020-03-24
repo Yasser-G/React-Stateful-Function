@@ -1,8 +1,8 @@
 {
   "name": "react-stateful-function",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React Statful Function",
-  "main": "index.ts",
+  "main": "index.js",
   "keywords": [
     "react",
     "react-native",
